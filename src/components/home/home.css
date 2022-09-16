@@ -524,6 +524,8 @@ color: transparent;
         }
         .home3{
             height: 300vh;
+            /* border: 2px solid red; */
+            overflow: hidden;
         }
     
         .home3 h1{
@@ -532,10 +534,12 @@ color: transparent;
         }
         .home3head{
    /* border: 2px solid red; */
+            
    padding: 1rem;
    z-index: 11111;
         }
         .home3content{
+            /* border: 2px solid red; */
             /* margin-top: 10rem; */
             display: flex;
             flex-direction: column-reverse;
@@ -546,11 +550,14 @@ color: transparent;
         }
         .hc3lbg{
             width: 100vw;
-            height: 500px;
+            height: 1000px;
             /* border: 2px solid red; */
         }
+        .home3contentright{
+            height: auto;
+        }
         .hc3lbg1{
-            width: 100vw;
+            width: 95%;
             height: 500px;
             /* border: 2px solid red; */
         }
@@ -567,10 +574,13 @@ color: transparent;
         }
         .head{
             width: 100%;
-            padding-top: 15rem;
+            padding-top: 70vh;
             /* display: flex; */
         }
-
+        .contentggg{
+            /* border: 2px solid red; */
+            text-align: start;
+        }
         .home4{
           padding: 2rem;
         }

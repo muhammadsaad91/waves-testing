@@ -162,6 +162,8 @@
 
 .home3{
     width: 100%;
+    padding: 2rem;
+    /* padding-top: 10rem; */
     /* height: 100vh; */
     /* border: 2px solid red; */
 }
@@ -190,6 +192,9 @@
     gap : 4rem;
     /* align-items: center; */
     margin-bottom: 6rem;
+}
+.contenthome2{
+    padding-top: 10rem;
 }
 .home3contentleft{
     width: 35%;

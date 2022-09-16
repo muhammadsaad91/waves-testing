@@ -93,7 +93,7 @@ a {
     padding-left: -2rem;
     transform: translateX(100%);
     transition: 0.5s ease-in-out;
-   /* z-index: -1; */
+   z-index: -1;
   }
   .logo{
     display: block;

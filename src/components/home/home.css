@@ -1,0 +1,601 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.home{
+    /* background: url("1.gif"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* filter: brightness(20%); */
+    width: 100%;
+    height: 90vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.home h1{
+    font-size: 8rem;
+    font-weight: 900;
+    /* padding-left: 20rem; */
+    /* padding-right: 20rem; */
+    /* border: 2px solid red; */
+}
+.hflex{
+    display: inline;
+    width: 70%;
+    text-align: center;
+}
+.home h5 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    /* padding-left: 20rem; */
+    /* padding-right: 20rem; */
+    display: inline;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.home::before{
+    content: "";
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    background: url("1.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(15%);
+    width: 100%;
+    height: 95vh;
+    z-index: -1;
+}
+.home2{
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    /* height: 130vh; */
+    /* border: 2px solid red; */
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-bottom: 10rem; */
+}
+.home2head{
+    width: 90%;
+}
+.home2h{
+    display: inline-block;
+    width: auto;
+}
+.home2h h1{
+    color: #3452ff;
+    background: linear-gradient(to bottom right,#ff1053,#3452ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    font-size: 7rem;
+    display: inline-block;    /* text-align: center; */
+}
+.h2item{
+    /* border: 2px solid #3452ff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    /* width: 98vw;     */
+}
+.h2item img{
+    width: 12rem;
+}
+.itemshome2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+.contenthome2{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.contentleft{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+}
+
+.contentleft h1{
+    font-size: 4rem;
+    color: white;
+    text-align: end;
+}
+.contentright{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.contentright h4{
+    font-size: 2.3rem;
+    color: white;
+    text-align: start;
+}
+.contentright button{
+    margin-top: 3rem;
+    width: 15rem;
+    height: 5rem;
+   border-radius: 10rem;
+   background: transparent;
+   color: white;
+   transition: 0.5s;
+   border: 2px solid white;
+   font-weight: bold;
+}
+.contentright button:hover{
+   background-color: #ff1053;
+   font-weight: bold;
+   color: black;
+}
+
+.home3{
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+}
+.home3head{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.home3head h1{
+    font-size: 10rem;
+    color: rgb(92, 91, 91);
+    text-align: center;
+}
+.home3content{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    margin-top: 10rem;
+    justify-content: center;
+    gap : 4rem;
+    /* align-items: center; */
+    margin-bottom: 6rem;
+}
+.home3contentleft{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.hc3lbg{
+    width:40rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* border: 2px solid red; */
+    background:linear-gradient( rgba(0, 0, 0, 0.5) 30%, rgba(248, 110, 31, 0.5)100%),url("johnydangthrone.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.hc3lbg h2{
+    color: white;
+}
+
+.contentggg{
+    /* border: 2px solid red; */
+    margin-bottom: 10rem;
+    padding-left: 3rem;
+}
+.lowerleft{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.stars{
+    /* border: 2px solid red; */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+}
+.lowerleft h2{
+    color: rgb(95, 94, 94);
+    font-weight: 500;
+}
+.stars i{
+    color: #ff0000;
+}
+.home3contentright{
+    width: 40%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.home3contentright h1{
+    font-size: 5rem;
+    color: rgb(71, 70, 70);
+    font-weight: 900;
+}
+.head{
+    /* border: 2px solid red; */
+    width: 73%;
+    display: block;
+    text-align: start
+}
+
+.hc3lbg1{
+    /* border: 2px solid red; */
+    width:40rem;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background:linear-gradient( rgba(0, 0, 0, 0.5) 30%, rgba(248, 110, 31, 0.5)100%),url("jjjjgggg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hc3lbg1 h2{
+    color: white;
+}
+
+
+.home4{
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.h4head{
+    width: 100%;
+    /* height: 20%; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 5rem;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+    color: white;
+}
+.h4r{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 50%;
+    /* padding: 2rem; */
+}
+
+.h4l{
+    width: 40%;
+    /* padding: 2rem; */
+}
+.h4l h1{
+    font-size: 5rem;
+    color: white;
+    font-weight: 500;
+}
+.h4r span{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.bbnn{
+ /* border: 2px solid red; */
+ width: 150px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+    /* flex-direction: column; */
+}
+.bbnn i{
+    color: white;
+    font-size: 2.5rem;
+    /* width: 50px; */
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    transform: rotate(360deg);
+
+}
+span{
+    transition: all 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+span i {
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.home5{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+marquee{
+    width: 97vw;
+}
+.home5bk{
+    width: 90%;
+    height: 60vh;
+    /* border: 2px solid red; */
+    background-image: url("h5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ccccccc{
+    font-size: 8rem;
+    color: white;
+    font-weight: 500;
+    background: transparent;
+    /* font-size: 30px;  */
+font-weight: bolder;
+color: transparent;  
+-webkit-text-stroke-width: 1px;
+/* border: 2px solid white; */
+-webkit-text-stroke-color: white;
+
+    /* text-background: transparent; */
+}
+
+
+.home6{
+    width: 100%;
+    height: 50vh;
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 3rem;
+}
+.home6 h1{
+    width: 60%;
+    font-size: 5rem;
+    color: white;
+    font-weight: 800;
+    /* text-align: center; */
+}
+
+.home6 h4{
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    /* text-align: center; */
+}
+.home6 button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(238, 43, 43);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 3rem;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    /* margin: 0 auto; */
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.home6 button:hover{
+    background-color: rgb(255, 238, 0);
+    color: black;
+    border: 2px solid black;
+}
+
+.hm6{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.btt{
+    display: flex;
+   align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+     
+      .home h1{
+        font-size: 4.5rem;
+      }
+        .home h5{
+            font-size: 2rem;
+        }
+        .home2h h1{
+            font-size: 5rem;
+        }
+      .itemshome2{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+      }
+      .contenthome2{
+        display: flex;
+        flex-direction: column;
+      }
+      .contentleft{
+        width: 100%;
+        text-align: center;
+
+      }
+      .contentleft h1{
+        font-size: 3rem;
+        padding: 1rem;
+        text-align: center;
+      }
+        .contentright{
+            width: 100%;
+            text-align: center;
+            padding: 1rem;
+        }
+        .contentright button{
+            width: 100%;
+            height: 50px;
+            font-size: 1.5rem;
+        }
+        .home3{
+            height: 300vh;
+        }
+    
+        .home3 h1{
+            font-size: 5.5rem;
+            margin-bottom: 3rem;
+        }
+        .home3head{
+   /* border: 2px solid red; */
+   padding: 1rem;
+   z-index: 11111;
+        }
+        .home3content{
+            /* margin-top: 10rem; */
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .home3contentleft{
+            /* width: 100%; */
+            text-align: center;
+        }
+        .hc3lbg{
+            width: 100vw;
+            height: 500px;
+            /* border: 2px solid red; */
+        }
+        .hc3lbg1{
+            width: 100vw;
+            height: 500px;
+            /* border: 2px solid red; */
+        }
+        .home3contentleft{
+            /* border: 2px solid red; */
+            width: 100vw;
+        }
+        .stars i{
+            font-size: 2rem;
+        }
+        .home3contentright{
+            /* border: 2px solid red; */
+            width: 100vw;
+        }
+        .head{
+            width: 100%;
+            padding-top: 15rem;
+            /* display: flex; */
+        }
+
+        .home4{
+          padding: 2rem;
+        }
+        .h4head{
+            display: flex;
+            flex-direction: column;
+        }
+        .h4r{
+            width: 100%;
+
+        }
+        .h4r h1{
+            font-size: 3rem;
+        }
+        .h4l{
+            width: 100%;
+        }
+        .home6{
+            height: 60vh;
+            padding: 2rem;
+            width: 100%;
+        }
+        .home6 h1{
+            width: 100%;
+            font-size: 5rem;
+            /* text-align: center; */
+        }
+        .home6 button{
+            width: 100%;
+            height: 7vh;
+            font-size: 1.5rem;
+        }
+}

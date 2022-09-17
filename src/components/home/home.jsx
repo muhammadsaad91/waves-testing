@@ -110,7 +110,10 @@ const Home = () => {
          
          <h1>Don't wait any longer, take advantage today.</h1>
         <h4>Reach out for a free quote on your desired services.</h4>
-        <button className='btt' onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)}>Contact {isShown?  <i className="fa-solid fa-arrow-right"></i> :">"}</button>
+        <button className='btt' onMouseEnter={() => setIsShown(true)} 
+        onMouseLeave={() => setIsShown(false)}>Contact 
+        {isShown?  <i className="fa-solid fa-arrow-right"></i> :
+        <p className='butcc'> > </p>}</button>
          </div>
 
        

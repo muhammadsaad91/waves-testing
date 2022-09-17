@@ -29,7 +29,7 @@ const Home = () => {
         </div>
 <div className="h4r" >
   <h2>As industry leaders in content creation, we understand what it takes to elevate your brand to the next level.</h2>
-  <NavLink ><span className='bbnn'   onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)}>{isShown?<i className="fa-solid fa-arrow-right" ></i>:"➖"} See Our Clients</span></NavLink>
+  <NavLink ><span className='bbnn'   onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)}>{isShown?<i class="fa-solid fa-arrow-right"></i>:"➖"} See Our Clients</span></NavLink>
 </div>
           </div>
         </div>

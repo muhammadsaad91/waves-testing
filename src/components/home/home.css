@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 500;
+    /* font-weight: 500; */
     background: transparent;
     /* font-size: small; */
     bottom: 5vh;
@@ -556,8 +556,11 @@ button{
       }
       .after{
         font-size: 2rem;
-        top: 74vh;
+        top: 80vh;
         right: 50vw;
+        text-align: center;
+        /* font-weight: 500; */
+        /* margin-bottom: 9px; */
     }
       .hflex{
         margin-top: 5rem;

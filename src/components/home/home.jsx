@@ -21,9 +21,11 @@ const Home = () => {
             <div className="hflex">
             <h1>Welcome To Waves Agency</h1>
             </div>
-            <br /><br />
-             <h5>| Revolutionizing Digital Commerce |</h5>
+            {/* <br /><br /> */}
+              <div className="homehh">
+              <h5>| Revolutionizing Digital Commerce |</h5>
              <h5>Delivering Results</h5>
+              </div>
              <div className='after'></div>
         </div>
         <div className='home2'>

@@ -28,7 +28,7 @@
 .home .after{
     content: ">";
     border: 2px solid white;
-    position: absolute;
+    /* position: absolute; */
     border-radius: 50%;
     /* display: flex; */
     /* justify-content: center; */
@@ -36,8 +36,8 @@
     /* font-weight: 500; */
     background: transparent;
     /* font-size: small; */
-    bottom: 5vh;
-    left: 47vw;
+    /* bottom: 5vh; */
+    /* left: 47vw; */
     margin: auto;
     box-sizing: border-box;
     padding-bottom: 4px;
@@ -570,11 +570,13 @@ button{
         flex-direction: column;
         justify-content: center;
         padding: 1rem;
+        padding-top: 10rem;
+        /* border: 2px solid red; */
       }
       .after{
         font-size: 2rem;
         top: 50vh;
-        right: 45vw;
+        left: 44vw;
         display: block;
         margin: auto;
         /* text-align: center; */
@@ -585,8 +587,8 @@ button{
         content: ">";
         font-size: 2rem;
         position: relative;
-        top: 16%;
-        left: 41%;
+        top: 13.5%;
+        left: 40%;
         /* font-weight: 500; */
         /* margin-bottom: 9px; */
     }

@@ -35,7 +35,7 @@
     width: 60px;
     height: 60px;
     cursor: pointer;
-    animation: bounce 2s infinite;
+    transition: all 0.5s ease-in-out;
     transform: rotate(90deg);
 }
 .after::after{

@@ -18,6 +18,37 @@
     flex-direction: column;
     /* border: 2px solid red; */
 }
+.home .after{
+    content: ">";
+    border: 2px solid white;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background: transparent;
+    /* font-size: small; */
+    bottom: 5vh;
+    left: 46vw;
+    box-sizing: border-box;
+    padding-bottom: 4px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+    background: rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.after::after{
+    content: ">";
+    justify-content: center;
+    align-items: center;
+}
+.home .after:hover{
+    background: rgba(26, 25, 25, 0.8);
+    transform: rotate(450deg) scale(1.2);
+}
 .home h1{
     font-size: 8rem;
     font-weight: 900;
@@ -72,6 +103,7 @@
 }
 .home2h{
     display: inline-block;
+    margin-bottom: 3rem;
     width: auto;
 }
 .home2h h1{
@@ -99,15 +131,16 @@
 .itemshome2{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90vw;
+    height: auto;
     flex-wrap: wrap;
     /* border: 2px solid red; */
 }
 .contenthome2{
     width: 100%;
-    height: 50%;
+    /* height: 50%; */
     /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
@@ -168,6 +201,7 @@
     /* height: 100vh; */
     /* border: 2px solid red; */
     overflow: hidden;
+    /* display: none; */
 }
 .home3head{
     width: 100%;
@@ -283,7 +317,7 @@
 .hc3lbg1{
     /* border: 2px solid red; */
     width:400px;
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -474,6 +508,14 @@ color: transparent;
     transition: all 0.5s ease-in-out;
     margin-top: 8px;
 }
+.butcc::after{
+    content: ">";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* background-color: white; */
+    transition: all 0.5s ease-in-out;
+}
 button{
     transition: all 0.5s ease-in-out;
 }
@@ -506,8 +548,22 @@ button{
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
      
+      .home{
+        /* padding-top: 1000rem; */
+        padding: 1rem;
+      }
+      .after{
+        font-size: 2rem;
+        top: 74vh;
+        right: 50vw;
+    }
+      .hflex{
+        margin-top: 5rem;
+        width: 100%;
+        /* border: 2px solid red; */
+      }
       .home h1{
         font-size: 4.5rem;
       }
@@ -516,6 +572,8 @@ button{
         }
         .home2h h1{
             font-size: 5rem;
+            margin-bottom: 4rem;
+            margin-top: 4rem;
         }
       .itemshome2{
         display: flex;
@@ -546,22 +604,14 @@ button{
             height: 50px;
             font-size: 1.5rem;
         }
-        .home3{
-            /* height: 300vh; */
-            /* border: 2px solid red; */
-            /* overflow: hidden; */
-        }
+        
     
         .home3 h1{
             font-size: 5.5rem;
             margin-bottom: 3rem;
+            /* margin-top: 30rem; */
         }
-        .home3head{
-   /* border: 2px solid red; */
-            
-   /* padding: 1rem; */
-   /* z-index: 11111; */
-        }
+        
         .home3content{
             /* border: 2px solid red; */
             /* margin-top: 10rem; */
@@ -609,7 +659,7 @@ button{
             height: auto;
         }
         .home4{
-          padding: 2rem;
+          padding: 1rem;
         }
         .h4head{
             display: flex;
@@ -627,7 +677,7 @@ button{
         }
         .home6{
             height: auto;
-            padding: 2rem;
+            padding: 1rem;
             /* border: 2px solid red; */
             /* background-color: white; */
             width: 100%;

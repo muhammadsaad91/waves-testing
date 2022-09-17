@@ -24,6 +24,7 @@ const Home = () => {
             <br /><br />
              <h5>| Revolutionizing Digital Commerce |</h5>
              <h5>Delivering Results</h5>
+             <div className='after'></div>
         </div>
         <div className='home2'>
           <div className="home2head">
@@ -49,7 +50,7 @@ const Home = () => {
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="black" fillOpacity="1" d="M0,288L60,250.7C120,213,240,139,360,144C480,149,600,235,720,250.7C840,267,960,213,1080,181.3C1200,149,1320,139,1380,133.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
-        <div className="home3">
+        <div className="home3" id='home3'>
           <div className="home3head">
             <h1>We Make Beautiful Things & Create Results</h1>
             </div>
@@ -113,7 +114,7 @@ const Home = () => {
         <button className='btt' onMouseEnter={() => setIsShown(true)} 
         onMouseLeave={() => setIsShown(false)}>Contact 
         {isShown?  <i className="fa-solid fa-arrow-right"></i> :
-        <p className='butcc'> > </p>}</button>
+        <p className='butcc'>  </p>}</button>
          </div>
 
        

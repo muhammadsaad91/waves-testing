@@ -68,7 +68,7 @@ a {
   .nav{
     position: fixed;
     width: 100%;
-    height: 10vh;
+    height: 80px;
     z-index: 100;
   }
   .nav__toggler {
@@ -81,9 +81,9 @@ a {
   }
   .nav__menu {
     position: fixed;
-    top: 8vh;
+    top: 70px;
     right: 0;
-    height: 85vh;
+    height: 90vh;
     width: 100vw;
     z-index: 10;
     background: black;

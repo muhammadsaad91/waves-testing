@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/waves-testing/static/css/main.f3449aea.chunk.css",
+    "main.js": "/waves-testing/static/js/main.f8fe1dac.chunk.js",
+    "main.js.map": "/waves-testing/static/js/main.f8fe1dac.chunk.js.map",
+    "runtime-main.js": "/waves-testing/static/js/runtime-main.a3723e63.js",
+    "runtime-main.js.map": "/waves-testing/static/js/runtime-main.a3723e63.js.map",
+    "static/js/2.04ed8032.chunk.js": "/waves-testing/static/js/2.04ed8032.chunk.js",
+    "static/js/2.04ed8032.chunk.js.map": "/waves-testing/static/js/2.04ed8032.chunk.js.map",
+    "index.html": "/waves-testing/index.html",
+    "static/css/main.f3449aea.chunk.css.map": "/waves-testing/static/css/main.f3449aea.chunk.css.map",
+    "static/js/2.04ed8032.chunk.js.LICENSE.txt": "/waves-testing/static/js/2.04ed8032.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/waves-testing/static/media/johnydangthrone.1aada991.jpg",
+    "static/media/Branding.ec35d773.jpg": "/waves-testing/static/media/Branding.ec35d773.jpg",
+    "static/media/Content-Marketing-Strategy.d2d4c3bd.jpg": "/waves-testing/static/media/Content-Marketing-Strategy.d2d4c3bd.jpg",
+    "static/media/Customer-Retention-Retargeting.842de103.jpg": "/waves-testing/static/media/Customer-Retention-Retargeting.842de103.jpg",
+    "static/media/Paid-Media.d7c50458.jpg": "/waves-testing/static/media/Paid-Media.d7c50458.jpg",
+    "static/media/Website-Creation-Optimization.485ff023.jpg": "/waves-testing/static/media/Website-Creation-Optimization.485ff023.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3723e63.js",
+    "static/js/2.04ed8032.chunk.js",
+    "static/css/main.f3449aea.chunk.css",
+    "static/js/main.f8fe1dac.chunk.js"
+  ]
+}
